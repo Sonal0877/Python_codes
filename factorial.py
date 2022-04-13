@@ -13,7 +13,7 @@ def cal_factorial(number: int) -> int:
         return output
 
 
-for num in range(36):
+for num in range(35):
     factorial = cal_factorial(num)
     print("{} {}".format(num,factorial))
 
